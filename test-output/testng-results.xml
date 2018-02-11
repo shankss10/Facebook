@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The element is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25135" started-at="2018-02-11T12:14:50Z" finished-at="2018-02-11T12:15:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25135" started-at="2018-02-11T12:14:50Z" finished-at="2018-02-11T12:15:15Z">
+      <class name="scripts.InvalidLogin">
+        <test-method status="PASS" signature="openFacebook()[pri:0, instance:scripts.InvalidLogin@3f4d3d]" name="openFacebook" is-config="true" duration-ms="18321" started-at="2018-02-11T17:44:50Z" finished-at="2018-02-11T17:45:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFacebook -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:scripts.InvalidLogin@3f4d3d]" name="testInvalidLogin" duration-ms="5317" started-at="2018-02-11T17:45:09Z" finished-at="2018-02-11T17:45:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeFacebook()[pri:0, instance:scripts.InvalidLogin@3f4d3d]" name="closeFacebook" is-config="true" duration-ms="1457" started-at="2018-02-11T17:45:14Z" finished-at="2018-02-11T17:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFacebook -->
+      </class> <!-- scripts.InvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
